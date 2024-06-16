@@ -20,7 +20,7 @@ Develop my experience with HTML, CSS end JS, improving my knowledge and learning
 
 ### Screenshot
 
-![](./screenshot.gif)
+![](./screenshot.png)
 
 ## My process
 
@@ -37,4 +37,4 @@ Develop my experience with HTML, CSS end JS, improving my knowledge and learning
 
 ## Author
 
-- LinkedIn - [Lucas-Gabriel](https://www.linkedin.com/in/yami-kagayaki/)
+- LinkedIn - [Lucas-Gabriel](https://www.linkedin.com/in/lucasdevtec/)
