@@ -4,7 +4,6 @@ body {
 }
 
 header,
-main,
 footer {
   height: 90px;
   display: flex;
@@ -23,8 +22,8 @@ p {
 }
 
 .botao {
+  background-color: transparent;
   display: inline-block;
-  margin-right: 2rem;
   width: 130px;
   height: 40px;
   display: flex;
@@ -171,8 +170,18 @@ header nav ul a:hover {
 }
 
 /* main */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
 main .centralConteiner {
   color: red;
+}
+
+.poucoAEsquerda {
+  margin-left: 10px;
 }
 
 main .grid2collumn {
@@ -271,6 +280,66 @@ main img {
 
 #projetos .button-wrapper {
   margin-top: 18px;
+}
+
+#entreemcontato h2 {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#entreemcontato form {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem
+}
+
+#entreemcontato .inputbox {
+  position: relative;
+  width: 70%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+#entreemcontato .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 24px);
+  border: 2px solid rgb(156 163 175);
+  color: white;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+#entreemcontato .inputbox input:focus {
+  border: 2px solid red;
+
+}
+
+#entreemcontato .inputbox:last-child {
+  margin-bottom: 0;
+}
+
+#entreemcontato .inputbox span {
+  position: absolute;
+  color: rgb(156 163 175);
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+
+#entreemcontato .inputbox input:focus~span,
+#entreemcontato .inputbox input:valid~span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+  color: white;
 }
 
 @media (max-width:768px) {
