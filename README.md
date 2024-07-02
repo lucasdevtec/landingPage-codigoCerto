@@ -1,6 +1,6 @@
 # Código Certo - Landing Page Project
 
-This is a [Landing Page]() for Código Certo Community. Exercise proposed by [Vai na Web]() in the Front-End Developer course.
+This is a [Landing Page]() for Código Certo Community. Exercise proposed by [Código Certo]() in the Front-End Developer course.
 
 ## Table of contents
 
